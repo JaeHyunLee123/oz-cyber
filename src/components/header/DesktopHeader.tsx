@@ -10,7 +10,7 @@ export default function DesktopHeader() {
   const { pathname } = useLocation();
   return (
     <header className="flex flex-col">
-      <div className="flex px-2 justify-around items-center py-10 space-x-3 flex-wrap">
+      <div className="flex px-2 justify-around items-center py-5 space-x-3 flex-wrap">
         <Logo />
         <SearchInput />
         <nav className="flex justify-center items-center space-x-2">

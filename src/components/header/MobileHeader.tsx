@@ -13,7 +13,7 @@ export default function MobileHeader() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header className="flex flex-col">
-      <div className="flex flex-row px-2 py-10 justify-between items-center">
+      <div className="flex flex-row px-2 py-5 justify-between items-center">
         <Logo />
         <button
           onClick={() => {
