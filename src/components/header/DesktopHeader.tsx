@@ -4,13 +4,6 @@ import Heart from "../icons/Heart";
 import Logo from "../icons/Logo";
 import User from "../icons/User";
 import SearchInput from "../SearchInput";
-import Phone from "../icons/Phone";
-import Computer from "../icons/Computer";
-import Devider from "../icons/Devider";
-import Gaming from "../icons/Gaming";
-import Camera from "../icons/Camera";
-import HeadPhone from "../icons/HeadPhone";
-import SmartWatch from "../icons/SmartWatch";
 import SubNav from "./SubNav";
 
 export default function DesktopHeader() {
