@@ -1,4 +1,4 @@
-import useWindowWidth from "../../hooks/useWindowWidth";
+import useWindowWidth from "@/hooks/useWindowWidth";
 import DesktopHeader from "./DesktopHeader";
 import MobileHeader from "./MobileHeader";
 
