@@ -1,9 +1,9 @@
 import { useLocation, Link } from "react-router";
-import Cart from "../icons/Cart";
-import Heart from "../icons/Heart";
-import Logo from "../icons/Logo";
-import User from "../icons/User";
-import SearchInput from "../SearchInput";
+import Cart from "@/components/icons/Cart";
+import Heart from "@/components/icons/Heart";
+import Logo from "@/components/icons/Logo";
+import User from "@/components/icons/User";
+import SearchInput from "@/components/SearchInput";
 import SubNav from "./SubNav";
 
 export default function DesktopHeader() {

@@ -1,10 +1,10 @@
-import Camera from "../icons/Camera";
-import Computer from "../icons/Computer";
-import Devider from "../icons/Devider";
-import Gaming from "../icons/Gaming";
-import HeadPhone from "../icons/HeadPhone";
-import Phone from "../icons/Phone";
-import SmartWatch from "../icons/SmartWatch";
+import Camera from "@/components/icons/Camera";
+import Computer from "@/components/icons/Computer";
+import Devider from "@/components/icons/Devider";
+import Gaming from "@/components/icons/Gaming";
+import HeadPhone from "@/components/icons/HeadPhone";
+import Phone from "@/components/icons/Phone";
+import SmartWatch from "@/components/icons/SmartWatch";
 
 export default function SubNav() {
   return (
