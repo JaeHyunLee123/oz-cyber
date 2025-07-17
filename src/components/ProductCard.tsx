@@ -8,6 +8,11 @@ interface ProductCardProps {
 export default function ProductCard({ product }: ProductCardProps) {
   const [isLike, setIsLike] = useState(false);
 
+  const imageNum =
+    product.category === "smartphones" || product.category === "vehicle"
+      ? 1
+      : 0;
+
   return (
     <div className="rounded bg-[#f6f6f6] flex flex-col justify-center items-center space-y-2 w-3xs p-2">
       <div className="flex w-full justify-end">
@@ -24,7 +29,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       </div>
 
       <img
-        src={product.images[1]}
+        src={product.images[imageNum]}
         alt={`${product.title}-image`}
         width={220}
         className="overflow-hidden content-center"
