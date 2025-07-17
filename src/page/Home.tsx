@@ -60,8 +60,8 @@ export default function Home() {
   });
 
   return (
-    <div>
-      <div className="p-1 flex items-center justify-start space-x-2">
+    <div className="flex flex-col items-center">
+      <div className="p-5 flex items-center justify-start gap-5 flex-wrap w-full max-w-[1100px]">
         {browseItems.map((item, i) => (
           <button
             key={i}
@@ -78,7 +78,7 @@ export default function Home() {
           </button>
         ))}
       </div>
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-2 justify-center items-center max-w-[1200px]">
         {isPending
           ? "fetching"
           : data?.products.map((product) => (
