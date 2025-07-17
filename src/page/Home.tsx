@@ -2,11 +2,14 @@ import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 
 export default function Home() {
-  const { data, isPending } = useQuery({
-    queryKey: ["test"],
+  const { data, isPending } = useQuery<Products>({
+    queryKey: ["products", "smartphones"],
     queryFn: async () => {
-      const data = await axios.get("https://dummyjson.com/test");
+      const data = await axios.get(
+        "https://dummyjson.com/products/category/smartphones?limit=8"
+      );
 
+      console.log(data);
       return data.data;
     },
   });
@@ -16,10 +19,8 @@ export default function Home() {
       Home
       <div>
         {isPending
-          ? "Testing data fetching"
-          : data.status === "ok"
-          ? "Success data fething"
-          : "Error with data fetching"}{" "}
+          ? "fetching"
+          : data?.products.map((product) => <span>{product.title}</span>)}
       </div>
     </div>
   );
