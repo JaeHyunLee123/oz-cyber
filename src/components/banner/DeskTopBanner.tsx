@@ -19,6 +19,7 @@ export default function DeskTopBanner() {
         </div>
         <img className="h-full  object-center object-cover" src={iphoneImage} />
       </div>
+
       <div className="bg-white col-span-2 row-span-1 flex items-center justify-center space-x-1">
         <img
           className="h-full object-center object-cover"
@@ -32,6 +33,7 @@ export default function DeskTopBanner() {
           </p>
         </div>
       </div>
+
       <div className="bg-neutral-200 col-span-2 row-span-2 flex items-center">
         <div className="pl-1">
           <h1 className="text-black text-3xl">
@@ -47,6 +49,7 @@ export default function DeskTopBanner() {
           src={macbookImage}
         />
       </div>
+
       <div className="bg-neutral-200 col-span-1 row-span-1 flex items-center">
         <img
           className="h-full object-center object-cover"
@@ -57,11 +60,11 @@ export default function DeskTopBanner() {
             Air Pods <strong>Max</strong>
           </h1>
           <p className="text-gray-400 text-xs">
-            Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will
-            redefine your PlayStation experience.
+            Computational audio. Listen, it's powerful
           </p>
         </div>
       </div>
+
       <div className="bg-neutral-700 col-span-1 row-span-1 flex items-center">
         <img
           className="h-[150px] object-center object-cover"
@@ -72,8 +75,7 @@ export default function DeskTopBanner() {
             Apple Vision <strong>Pro</strong>
           </h1>
           <p className="text-gray-400 text-xs">
-            Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will
-            redefine your PlayStation experience.
+            An immersive way to experience entertainment
           </p>
         </div>
       </div>
